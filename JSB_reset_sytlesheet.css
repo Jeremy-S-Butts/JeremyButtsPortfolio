@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document
+CSS Reset Style Sheet
+08/9/2021
+Jeremy Butts 
+File: JSB_reset_Style Sheet.css
+*/
+/* Structural Styles */
+article, aside, figcaption, figure, footer, header, main, nav, section {
+  display: grid;
+}
+/* Typographic Styles */
+address, article, aside, blockquote, body, cite, div, dl, dt, dd, em, figcaption, figure, footer, h1, h2, h3, h4, h5, h6, header, html, img, li, main, nav, ol, p, section, span, ul {
+  background: transparent;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+nav ul {
+  list-style: none;
+  list-style-image: none;
+}
+nav a {
+  text-decoration: none;
+}
+body {
+  line-height: 1;
+}
+body {
+  min-width: value;
+  min-height: value;
+  max-width: value;
+  max-height: value;
+}
+body {
+  Margin-left: auto;
+  margin-right: auto;
+  max-width: value;
+  min-width: value;
+  width: value;
+}

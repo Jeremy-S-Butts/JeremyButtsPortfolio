@@ -1,0 +1,126 @@
+@charset "utf-8";
+@media {
+  display: grid;
+  grid-template-columns: auto;
+}
+/* CSS Document 
+Jeremy Butts Portfolio homepage.index.HTML
+08/06/2021
+Jeremy Butts
+Filename: JSB_Styles.CSS
+*/
+/* Style Rules HTML*/
+html {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: pink;
+  font-size: 16px;
+  height: 100%;
+}
+/* Style Rules Body */
+body {
+  display: grid;
+  grid-template-columns: auto;
+  color: mediumpurple;
+  background-color: pink;
+  text-align: center;
+  padding: 30px;
+  width: 1400px;
+  border: 10px solid black;
+  margin: 16px;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+body {
+  text-transform: capitalize;
+  font-variant: normal;
+  text-align: center;
+  vertical-align: baseline;
+}
+header {
+	color:
+	background-color:
+	padding: 80px 0;
+	text-align: center;
+}
+div {
+  display: grid;
+  grid-template-columns: auto;
+}
+/*Syle Rules Navigation */
+nav ol {
+  display: grid;
+  grid-template-columns: auto;
+  color: red;
+}
+nav li {
+  display: inline-block;
+  grid-template-columns: auto;
+  color: red;
+}
+nav a {
+  display: grid;
+  grid-template-columns: auto;
+  color: red;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  display: grid;
+  grid-template-columns: auto;
+  color: blueviolet;
+  background-color: yellow;
+  text-align: center;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 48px;
+  margin: 0 0 16px 0;
+ font-weight: 300;
+}
+p {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 30px;
+  color: blue;
+  text-align: center;
+}
+.Container {
+	margin: 0 auto;
+	padding: 0 20px 0 20px;
+	max-width: 900px;
+}
+section {
+	text-align: Center;
+	padding: 40px 0;
+}
+.features {
+	background:#FFFFFF;
+	color: #000000; 
+}
+article * {
+  display: grid;
+  grid-template-columns: auto;
+  border-color: orange;
+  -webkit-column-count: 1;
+  -ms-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  font-size: 1em;
+  line-: 2em;
+}
+img {
+  display: grid;
+  image-align: left-side
+}
+/*    footer > contactInfo */
+footer {
+	background: #353535;
+	padding: 32px 0;
+	text-align: center;
+	color: #868686;
+}
+body > footer {
+  display: grid;
+  color: black;
+  border-radius: 5px;
+}
